@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Event</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="welcome();">
+    <!-- 
+    <div id="box">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ea cum architecto illo modi distinctio ratione impedit neque! Quibusdam, explicabo.</p>
+    </div>
+    <label for="">Name :</label>
+    <input type="text" name="" id="" placeholder="Enter Your Name" onfocus="hightlight(this);" onblur="unhightlight(this)">
+    <textarea name="" id="" cols="20" rows="5" onfocus="hightlight(this);" onblur="unhightlight(this)"></textarea> 
+    -->
+
+    <label for="">Choice</label>
+    <select name="" id="menu"  onchange="getMenu();" >
+        <option value="JavaScript">JavaScript</option>
+        <option value="Php">Php</option>
+        <option value="Html">Html</option>
+    </select>
+
+    <p id="display"></p>
+
+    <a href="" onmouseover="hightlight(this);" onmouseout="unhightlight(this);">Menu 1</a>
+    <a href="" onmouseover="hightlight(this);" onmouseout="unhightlight(this);">Menu 2</a>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
